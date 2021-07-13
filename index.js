@@ -8,7 +8,7 @@ var map = L.map('map', {
     attributionControl: false,
     minZoom: -2,
     zoomSnap: 0.1,
-    cursor: true
+    cursor: false
 });
 
 var image = L.imageOverlay('assets/Map.png', bounds).addTo(map);
