@@ -18,7 +18,8 @@ crossorigin=""></script>
 
 <script>
     var map = L.map('map', {
-    crs: L.CRS.Simple
+    crs: L.CRS.Simple,
+    minZoom: -5
     });
 
     var bounds = [[0,0], [1000,1000]];
