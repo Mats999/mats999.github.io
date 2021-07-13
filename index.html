@@ -13,17 +13,9 @@ crossorigin=""></script>
 <title>Xera Map</title>
   
 <body> 
-  <div id="map"></div>
+    <div id="content">
+        <div id="map"></div>
+    </div>
 </body>
 
-<script>
-    var map = L.map('map', {
-    crs: L.CRS.Simple,
-    minZoom: -5
-    });
-
-    var bounds = [[0,0], [1000,1000]];
-    var image = L.imageOverlay('assets/Map.png', bounds).addTo(map);
-
-    map.fitBounds(bounds);
-</script>
+<script src="index.js"></script>

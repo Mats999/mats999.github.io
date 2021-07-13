@@ -1,1 +1,13 @@
-#map { height: 500px; width: 500px; }
+body {
+    padding: 0;
+    margin: 0;
+}
+
+#content {
+    display: flex;
+    flex-direction: row;
+    height: 100vh; 
+    width: 100vw;
+}
+
+#map { flex-basis: auto; height: 100%; width: 100%; }
